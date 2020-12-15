@@ -1,10 +1,11 @@
 {
 	"Partitur":{
 		"Label":"Partitur",
-		"Global_Staff_Size":15,
+		"Global_Staff_Size":16,
 		"Force_Titelseite":false,
 		"Paper":{
-			"print-all-headers":"##t"
+			"print-all-headers":"##f",
+			"left-margin":"1.6\\cm"
 		}
 	}
 }

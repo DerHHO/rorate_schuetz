@@ -1,0 +1,20 @@
+{
+	"Musikverlag":{
+		"dnote":0,
+		"dalteration":0,
+		"Print_Archivnummer":false,
+		"Copyright":"Oberlaaer Musicalienverlag",
+		"Seperate_Einzelstimmen":false,
+		"Merge_Stimmen":false
+	},
+	"Altenburg":{
+		"Print_Archivnummer":true,
+		"Copyright":"Musikarchiv des Stiftes Altenburg",
+		"Seperate_Einzelstimmen":false,
+		"Merge_Stimmen":false,
+		"QR_Codes":true,
+		"Paper_Alle":{
+			"bookTitleMarkup":"\\bookTitleMarkupQRFullPage"
+		}
+	}
+}
