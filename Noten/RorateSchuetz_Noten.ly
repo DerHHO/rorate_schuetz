@@ -275,46 +275,59 @@ bassTextRorateSchuetz =  \lyricmode {
 
 continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
   \globalRorateSchuetz
-  <d g bes>4 <d a' d> <d f a>8 <d g bes> <c g' c>4
-  <d fis a>4 <d g bes>4 <d fis a> <d g bes>
-  <d g bes>2 <d f a>4 <c f a>
-  <c f g> <c e g> <c f a> <d f a>
-  <d g bes> <d g d'> <e a cis>4 <d a' d>
-  <d g bes> <cis e a> <d f a> <d f bes>
-  <c es g> <c g' c> <d fis a> <d g d'>
+  <d g bes>4 <d a' d> <d f a>8 <d g bes> <c g' c>4 |
+  <d fis a>4 <d g bes>4 <d fis a> <d g bes> |
+  <d g bes>2 <d f a>4 <c f a> |
+  <c f g> <c e g> <c f a> <d f a> |
+  <d g bes> <d g> <cis e a>4 <d a'> |
+  <bes d g> <a cis e> <a d f> <bes d f> |
+  <g c es> <g c g'> <a d fis> <g d' g> |
   <c es g> <a d fis>4 <bes d g>2~
   <bes d g>2 <c g'>4 <es g c>
   <d g c>4~ <d f bes>4~ <c f bes>4~ <c f a>4
-  <d f bes>2 
+  <d f bes>2
   <<
     { c'8 bes a g }
     \\
     \relative f' { f2 }
   >>
-  <d f a>2 <bes e bes'>4 <d f bes>
-  <d e a> <cis e a> <d f a> <d f bes>
-  <c e g>4 <c g' c> <d g a>4 <d fis a>4
+  <d f a>2 <bes e bes'>4
+  <<
+    {
+      bes' |
+      <e, a>2~ a4
+    }
+    \\
+    \relative e' {
+      e8 d |
+      d4 cis <d f>
+    }
+  >>
+  \oneVoice
+  %<d, e a>4 <cis e a> <d f a>
+  <d, f bes> |
+  <c e! g>4 <c g' c> <d g a>4 <d fis a>4
   <d g bes>2. <d fis a>4
   <d g bes>1
   <d f bes>2. < c f a>4
   <d f bes>1~
   <d f bes>2 <es g bes>4 <d g bes>
-  <f a c> <c g' c>4 <g' b d> <g c d>4~
-  <g c d>4 <g b d>4  <e g c>2
+  <f a c> <c g' c>4 <d g b> <d g c>4~
+  <d g c >4 <d g b>4  <e g c>2
   <d g d'>4 <e g c>4 <f a c>4 <d g b>
-  <e g c>4 <d fis a> <d g bes> <e g c>
-  <d fis a> <d g d> <d g a> < d fis a>
-  <d g bes>2 <d a' d>4 <d g b>
+  <e g c>4 <d fis a> <d g bes> <c e g>
+  <a d fis> <g d' g> <a d g> <a d fis>
+  <bes d g>2 <d a'>4 <d g b>
   < e g c> <d fis a> <d g b>4 <cis e a>
-  <d fis a> <d g b> <cis e a> <a d a'>4
+  <d fis a> <d g b> <cis e a> <d a'>4
   <d e a> <cis e a> <d f a> <d g d'>4
-  <e g c> <d fis a> <g, c g>4 <c e g>4
+  <e! g c> <d fis a> <g, c g'>4 <c e! g>4
   <a d fis> <g c g'>4 <c f a> <d f a>
   <c f a>4 <d f bes>4 <c f bes>4 <c f a>4
   <d f bes>2 <c es g>4 <bes f' bes>4
   <bes es g>4 <c es a>4 <d f bes> <c e g>4
   <a d f>4 <bes d f> <c f c'>4 <d g bes>4
-  < f a c>4 <d g bes>4 <d g a>4 <d fis a>4
+  < f a c>4 <d g bes>4 <d g a>4~ <d fis a>4~ |
   <d g bes>2. <d fis a>4
   <d g bes>2. < d fis a>4
   <d g bes>2 <es g c>4 <d f a>
@@ -323,20 +336,30 @@ continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
   <f a c> <d g bes> <d g a> <d fis a>
   <d g bes>1
   <d a' d>4 <d fis a>8 <d g bes> <d a' d>4 <d fis a>
-  <d g bes>2 <c f c'>2
-  <g' bes d>2 <a c f>4 <f a c>4
-  <d g bes>4 <d g bes> <cis e a>4 <d e a>4~
+  <<
+    {
+      bes'8 g a bes c a bes c |
+      d c d e f e d c |
+    }
+    \\
+    \relative d' {
+      <d g>2 <c f>2
+      <g' bes>2 <a c>2
+    }
+  >>
+  \oneVoice
+  <d, g bes>4 <d g bes> <cis e a>4 <d e a>4~
   <d e a>4 <cis e a>4 <d f a>2
   <d f a>2 <d g bes>2
   <d g bes>1
   <es g c>2 <d g bes>4 <d f bes>
-  <c f bes>4 <c f a>4 <d f bes>4 <d f bes>4
+  <c f bes>4~ <c f a>4~ <d f bes>4 <d f bes>4
   <c es g>2 <a d fis>4 <a d g>~
-  <a d g> <a d fis>4 <bes d g>2
+  <a d g>~ <a d fis>4~ <bes d g>2
   <a d a'>4 <bes d g>4 <d fis a> <d g bes>4
-  <d fis a>4 <a d a>4 <bes d g>2
+  <d fis a>4 <a d a'>4 <bes d g>2~ |
   <a d a'>1
-  <d f a>4 <d g a>2 <d fis a>4
+  <d f a>4~ <d g a>2~ <d fis a>4
   <bes d g>1
   <bes d f>
   <bes d g> ~
@@ -489,7 +512,7 @@ metronomZeileRorateSchuetz = \drummode {
 }
 \include "defRorateSchuetz.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "RorateSchuetz-Arbeitspartitur"
@@ -527,4 +550,4 @@ metronomZeileRorateSchuetz = \drummode {
     \scoreRorateSchuetz
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***
