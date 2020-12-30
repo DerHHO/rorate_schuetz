@@ -366,7 +366,7 @@ continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
   <bes d g>2. <c f a>4
   <es g bes>2. <c' a>8 <b d>
   <g c es>1
-  <g bes d>1
+  <g b d>1
 
 
 }
