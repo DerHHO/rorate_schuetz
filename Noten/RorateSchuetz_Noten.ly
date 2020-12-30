@@ -371,10 +371,10 @@ continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
 
 }
 
-orgelLHNotenRorateSchuetz = \tempTranspose \relative c {
+%{orgelLHNotenRorateSchuetz = \tempTranspose \relative c {
   \globalRorateSchuetz
 
-}
+}%}
 
 continuoNotenRorateSchuetz = \tempTranspose \relative g {
   \globalRorateSchuetz
