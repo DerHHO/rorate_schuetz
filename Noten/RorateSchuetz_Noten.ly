@@ -278,7 +278,7 @@ continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
   <d g bes>4 <d a' d> <d f a>8 <d g bes> <c g' c>4 |
   <d fis a>4 <d g bes>4 <d fis a> <d g bes> |
   <d g bes>2 <d f a>4 <c f a> |
-  <c f g> <c e g> <c f a> <d f a> |
+  <c f g>~ <c e g>~ <c f a> <d f a> |
   <d g bes> <d g> <cis e a>4 <d a'> |
   <bes d g> <a cis e> <a d f> <bes d f> |
   <g c es> <g c g'> <a d fis> <g d' g> |
@@ -306,14 +306,14 @@ continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
   \oneVoice
   %<d, e a>4 <cis e a> <d f a>
   <d, f bes> |
-  <c e! g>4 <c g' c> <d g a>4 <d fis a>4
+  <c e! g>4 <c g' c> <d g a>4~ <d fis a>4
   <d g bes>2. <d fis a>4
   <d g bes>1
   <d f bes>2. < c f a>4
   <d f bes>1~
   <d f bes>2 <es g bes>4 <d g bes>
   <f a c> <c g' c>4 <d g b> <d g c>4~
-  <d g c >4 <d g b>4  <e g c>2
+  <d g c >4~ <d g b>4  <e g c>2
   <d g d'>4 <e g c>4 <f a c>4 <d g b>
   <e g c>4 <d fis a> <d g bes> <c e g>
   <a d fis> <g d' g> <a d g> <a d fis>
@@ -323,7 +323,14 @@ continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
   <d e a> <cis e a> <d f a> <d g d'>4
   <e! g c> <d fis a> <g, c g'>4 <c e! g>4
   <a d fis> <g c g'>4 <c f a> <d f a>
-  <c f a>4 <d f bes>4 <c f bes>4 <c f a>4
+  <c f a>4 <d f bes>4 
+  <<
+    \relative bes' {
+      bes4 a |
+    }
+    \\
+    \relative c' { <c f>2 }
+  >>
   <d f bes>2 <c es g>4 <bes f' bes>4
   <bes es g>4 <c es a>4 <d f bes> <c e g>4
   <a d f>4 <bes d f> <c f c'>4 <d g bes>4
@@ -333,7 +340,7 @@ continuoAussetzungRorateSchuetz = \tempTranspose \relative bes {
   <d g bes>2 <es g c>4 <d f a>
   <bes es g>4 <c es g> <d f bes> <c e g>
   <a d f>4 <g d' g> <c f a> <d g bes>4
-  <f a c> <d g bes> <d g a> <d fis a>
+  <f a c> <d g bes> <d g a>~ <d fis a>
   <d g bes>1
   <d a' d>4 <d fis a>8 <d g bes> <d a' d>4 <d fis a>
   <<
